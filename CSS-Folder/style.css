@@ -177,3 +177,126 @@ footer p{
 .impressum p {
   margin-bottom: 12px;
 }
+
+@media (max-width: 800px) {
+  body{
+    max-height: none;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+  main{
+    height: 200vh;
+    flex-direction: column;
+  }
+  .controller{
+    height: 100vh;
+    width: 100%;
+    border: none;
+    justify-content: space-around;
+   
+  }
+
+ .output{
+    height: 100vh;
+    width: 100%;
+  
+  }
+
+  .data{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px;
+  }
+  footer p{
+    width: 100%;
+    font-size: 15px;
+  }
+  .data label {
+    width: 40%;
+    font-size: 25px;
+    text-align: left;
+    padding-left:7px ;
+   
+ 
+  }
+  .data input,
+  .data button {
+    width: 40%;
+
+  }
+  .table {
+    width: 100%;
+    height: 80vh;
+
+   
+  }
+
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  button{
+    outline: none;
+    border: none;
+    background-color: white;
+  }
+  #vaiables_alph, #input_data{
+      width: 100%;
+      font-size: 20px;
+      height: 4vh;
+      text-align: center;
+      border: none;
+      outline: none;
+      cursor:text;
+  }
+  #read{
+    margin-top: 2vh;
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    padding: 2px;
+    transition: word-spacing .6s ease;
+  }
+  
+ 
+  
+  .function{
+    height: 30vh;
+    width: 100%;
+  
+  }
+  .function h1{
+   padding-top: 12px;
+  }
+  .function p{
+    padding-top: 12px;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+   }
+  
+  .code{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: 'mononoki', sans-serif;
+  }
+  .language-python{
+    font-size: 23px;
+    font-family: 'mononoki', sans-serif;
+  }
+  
+ 
+
+}
