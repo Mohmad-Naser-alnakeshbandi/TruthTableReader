@@ -66,6 +66,9 @@
 
 <hr>
 
+### use the Truth Table Reader (TTR) :
+
+<a href ="https://mohmad-naser-alnakeshbandi.github.io/TruthTableReader/">Truth Table Reader</a>
 
 ### visit my website: 
 
