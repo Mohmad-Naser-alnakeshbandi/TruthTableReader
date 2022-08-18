@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/mononoki.min.css");
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  max-height: 100vh;
+  overflow: hidden;
+}
+header {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+header h1 {
+  color: rgb(216, 112, 147);
+  font-family: "Rubik Dirt", cursive;
+}
+main {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.controller,
+.output {
+  width: 48%;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.controller{
+  border-right: 5px dashed black;
+}
+.data {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.data label {
+  width: 20%;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 15px;
+}
+.data input,
+.data button {
+  width: 38%;
+  font-size: 22px;
+  text-align: center;
+  cursor: pointer;
+}
+.table {
+  width: 100%;
+  height: 80vh;
+  margin-right: 20px;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+button{
+  outline: none;
+  border: none;
+  background-color: white;
+}
+#vaiables_alph, #input_data{
+    width: 100%;
+    font-size: 20px;
+    height: 4vh;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor:text;
+}
+#read{
+  margin-top: 2vh;
+  width: 100%;
+  height: 5vh;
+  text-align: center;
+  font-size: 22px;
+  cursor: pointer;
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+  outline: none;
+  padding: 2px;
+  transition: word-spacing .6s ease;
+}
+
+#read:hover{
+  color: black;
+  background-color: whitesmoke;
+  word-spacing: 22px;
+  font-size: 25px;
+}
+
+.function{
+  height: 30vh;
+  width: 100%;
+
+}
+.function h1{
+ padding-top: 12px;
+}
+.function p{
+  padding-top: 12px;
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 35px;
+  width: 100%;
+  text-align: center;
+ }
+
+.code{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 20px;
+  font-family: 'mononoki', sans-serif;
+}
+.language-python{
+  font-size: 23px;
+  font-family: 'mononoki', sans-serif;
+}
+
+b{
+  font-size: 18px;
+}
+  
+footer{
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  justify-content: flex-end;
+}
+footer p{
+  padding-top: 10px;
+  cursor: pointer;
+  width: 28%;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.impressum{
+  text-align: left;
+}
+
+#titel{
+  font-size: 25px;
+}
+.impressum h3{
+  margin-bottom: 12px;
+}
+.impressum p {
+  margin-bottom: 12px;
+}

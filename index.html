@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="./JS-Folder/font-awsome.js"></script>
+    <script src="./JS-Folder/jquery-3.6.0.js"></script>
+    <script src="./JS-Folder/jquery-ui.js"></script>
+    <link rel="stylesheet" href="./CSS-Folder/jquery-ui.css" />
+ 
+  <script src="./JS-Folder/sweetalert.js" defer></script>
+
+    <script src="./JS-Folder/script.js"></script>
+    <link rel="stylesheet" href="./CSS-Folder/style.css" />
+
+    <link rel="shortcut icon" href="./Images/icon.png">
+    <title>Truth Table Reader</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Truth Table Reader</h1>
+    </header>
+    <main>
+      <div class="controller" id="con">
+        <div class="data">
+          <label for="variables">variables:</label>
+          <input type="number" id="variables" min="2" max="4" />
+          <button id="generate">Generate Table</button>
+          <button id="reload" disabled=" true" onclick="reload_page()">
+            <i class="fas fa-sync-alt fa-xl"></i>
+          </button>
+        </div>
+        <div class="table">
+          <table>
+            <thead></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="output">
+        <div class="function">
+          <h1>Function:</h1>
+          <p id="statement"></p>
+        </div>
+        <div class="code">
+            <h1>Python code:</h1>
+        </div>
+      </div>
+    </main>
+  <footer><p onclick="impressum()"> Developer: Mohamad Naser Alnakeshbandi</p></footer>
+  </body>
+</html>
+
