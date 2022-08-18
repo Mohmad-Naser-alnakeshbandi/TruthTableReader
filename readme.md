@@ -49,7 +49,7 @@
 => If if you type an invalid input as in the following image 
 
 
-<img src ="./images/Error_1_1.PNG">
+<img src ="images/Error_1_1.PNG">
 
 => You are going to got the follwoing massage
 
